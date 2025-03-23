@@ -45,8 +45,8 @@ cd <PROJECT_FOLDER>
 Ensure that ```<PROJECT_FOLDER>``` is accessible in JupyterLab by setting it as your working directory in JupyterLab.
  * In JupyterLab, use the "Open from Path" option to load ```ProductQueryAssistant.ipynb```
  * Similarly, load ```.env``` and populate the variable keys with appropriate values.
- * The first cell in the Notebook installs the required libraries: **%pip install langchain langgraph pandas openai langchain-openai langchain-core chromadb python-dotenv pydantic**
-
+ * See requirements.txt for the needed libraries.
+   
 ### Step 3: Run the Jupyter Notebook
 
 To execute the notebook, select each cell and press ```Shift + Enter```.
