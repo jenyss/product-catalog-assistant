@@ -24,7 +24,7 @@ This agent is ideal for building intelligent product assistants that support cat
 ![LangGraph Workflow](https://github.com/jenyss/ProductQueryAssistant/blob/main/workflow_graph.png)
 
 ## How-to
-TODO: coming soon
+**TODO: coming soon**
 
 ## Intallation
 
