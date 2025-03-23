@@ -20,6 +20,7 @@ The Product Intelligence Agent is a LangGraph-based workflow that enables semant
 This agent is ideal for building intelligent product assistants that support catalog search, product comparison, and natural language interaction.
 
 ## How-to
+TODO: coming soon
 
 ## Intallation
 
