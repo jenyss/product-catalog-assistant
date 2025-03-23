@@ -2,6 +2,8 @@
 
 A smart assistant designed to help yoy quickly find, compare, and retrieve accurate product information from your catalog. 
 
+If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
+
 ## 🧠 Product Intelligence Agent – Technical Summary
 
 The Product Intelligence Agent is a LangGraph-based workflow that enables semantic search and querying over structured product catalogs. It supports two modes:
@@ -39,7 +41,7 @@ cd <PROJECT_FOLDER>
 ### Step 2: Open Jupyter Notebook in JupyterLab
 
 Ensure that ```<PROJECT_FOLDER>``` is accessible in JupyterLab by setting it as your working directory in JupyterLab.
- * In JupyterLab, use the "Open from Path" option to load ```ProductQueryAssistant.ipynb```.
+ * In JupyterLab, use the "Open from Path" option to load ```ProductQueryAssistant.ipynb```
  * Similarly, load ```.env``` and populate the variable keys with appropriate values.
  * The first cell in the Notebook installs the required libraries: **%pip install langchain langgraph pandas openai langchain-openai langchain-core chromadb python-dotenv pydantic**
 
