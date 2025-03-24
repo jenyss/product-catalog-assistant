@@ -7,7 +7,7 @@ If you have any questions or would like to collaborate, feel free to reach out t
 ## How-to
 
 1. Enter your question in the ```user_input``` field. See the execution output in the notebook for an example.
-2. List the all .xlsx files you would like to compare products from. Currently, only files with single spreadsheet are supported. Multi-sheet files support is coming in the next version.
+2. Pass to ````file_paths``` the list of all .xlsx files you would like to compare products from. Currently, only files with single spreadsheet are supported. Multi-sheet files support is coming in the next version.
 3. If you have added new files for extraction then set ```file_processing=True```, else set it to ```file_processing=False```. **Important** Only embed data from a file once. Repeated embedding will pollute the database. If you do so then you can reset the DB and re-embed all documents. To do this, run the second cell to reset ChromaDB.
 
 ```
