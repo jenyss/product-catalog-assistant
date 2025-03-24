@@ -4,7 +4,7 @@ A smart assistant designed to help yoy quickly find, compare, and retrieve accur
 
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
-## How-to
+## How-To
 
 1. Enter your question in the ```user_input``` field. See the execution output in the notebook for an example.
 2. Pass to ```file_paths``` the list of all .xlsx files you would like to compare products from. Currently, only files with single spreadsheet are supported. Multi-sheet files support is coming in the next version.
