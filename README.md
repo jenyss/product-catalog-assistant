@@ -24,6 +24,18 @@ This agent is ideal for building intelligent product assistants that support cat
 ![LangGraph Workflow](https://github.com/jenyss/ProductQueryAssistant/blob/main/workflow_graph.png)
 
 ## How-to
+
+1. Ask your question in the ```user_input```
+2. List the all .xlsx files you would like to compare products from. Supports only single spreadsheet. Next version will support multiple
+3. If you have added new files for extraction then set ```file_processing=True```, else ```file_processing=False```. Make sure to embed the data from a file only once, otherwise you will pollute the DB. If you do so then you can reset the DB and embed all the documents again. Run the second cell to reset ChromaDB.
+
+```
+state = run_agent(
+    user_input="Get all drill tools, including the german ones and their prices. Merge the table to list the german and the english name under Product.",
+    file_processing=False,
+    file_paths=["construction_products_english.xlsx", "construction_products_german.xlsx"]
+)
+```
 **TODO: coming soon**
 
 ## Intallation
