@@ -20,14 +20,14 @@ state = run_agent(
 )
 ```
 
-## Technical Summary
+## How It Works
 
 The Product Query Assistant is a LangGraph-based workflow that enables semantic search and querying over structured product catalogs. It supports two modes:
 
 1. **Product Ingestion -> Product Search & Answering** – Parses Excel files, extracts product data, and embeds it using OpenAI’s `text-embedding-3-large` into a persistent ChromaDB vector store. It then proceeds to answer the user’s question based on the embedded data.
 2. **Product Search & Answering** – Accepts natural language queries, performs similarity search over embedded data, and uses GPT-4o to filter and return relevant product matches via structured tool-calling.
 
-### Technical Highlights
+## Technical Highlights
 - **Frameworks**: [LangGraph](https://github.com/langchain-ai/langgraph), [LangChain](https://github.com/langchain-ai/langchain)
 - **LLM**: OpenAI `gpt-4o` for answer generation and tool-based reasoning
 - **Embeddings**: OpenAI `text-embedding-3-large`
