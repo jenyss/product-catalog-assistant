@@ -1,6 +1,6 @@
 # Product Query Assistant
 
-A smart assistant designed to help yoy quickly find, retrieve, and compare accurate product information from your catalog. 
+A smart assistant designed to help you quickly find, retrieve, and compare accurate product information from your catalog. 
 
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
