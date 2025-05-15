@@ -20,10 +20,12 @@ state = run_agent(
 )
 ```
 
-To reset ChromaDB run:
+To reset ChromaDB run cell number two:
 
 ```
-TODO
+# Reset the database
+chroma_client.reset()
+print("ChromaDB has been reset.")
 ```
 
 ## How It Works
