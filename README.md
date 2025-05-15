@@ -10,7 +10,7 @@ Find the ```run_agent``` at the end of the Notebook and configure the three fiel
 
 2. Enter your question in the ```user_input``` field. See the execution output in the notebook for an example.
 3. Pass to ```file_paths``` the list of all .xlsx files you would like to compare products from. Currently, only files with single spreadsheet are supported. Multi-sheet files support is coming in the next version.
-4. If you have added new files for extraction then set ```file_processing=True```, else set it to ```file_processing=False```. **Important** Only embed data from a file once. Repeated embedding will pollute the database. If you do so then you can reset the DB and re-embed all documents. To do this, run the second cell to reset ChromaDB.
+4. If you have added new files for extraction then set ```file_processing=True```, else set it to ```file_processing=False```. **Important** Only embed data from a file once or add validation if a file has been already embedded and skip it. Repeated embedding will pollute the database. If you do so then you can reset the DB and re-embed all documents. To do this, run the second cell to reset ChromaDB.
 
 ```
 state = run_agent(
