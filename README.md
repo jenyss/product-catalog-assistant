@@ -4,7 +4,7 @@ A smart assistant designed to help you quickly find, retrieve, and compare accur
 
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
-Run in [Google Colab](https://colab.research.google.com/drive/19bQ3qQ9f5jrSQD_LZX09VMDxQ36szVrE?usp=sharing) tghgf
+Run in [Google Colab](https://colab.research.google.com/drive/19bQ3qQ9f5jrSQD_LZX09VMDxQ36szVrE?usp=sharing) tghgf ghfh
 
 
 ## How It Works
