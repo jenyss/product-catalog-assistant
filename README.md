@@ -16,19 +16,12 @@ The Product Query Assistant is a LangGraph-based workflow that enables semantic 
 
 ## Technical Highlights
 - **Frameworks**: [LangGraph](https://github.com/langchain-ai/langgraph), [LangChain](https://github.com/langchain-ai/langchain)
-- **LLM**: OpenAI `gpt-4o` for answer generation and tool-based reasoning
-- **Embeddings**: OpenAI `text-embedding-3-large`
-- **Vector Store**: ChromaDB with persistent storage
-- **Workflow Control**: State machine with conditional routing (file processing vs. file processing & search)
-- **Output**: DataFrame (table) with each product relevant to the answer on a new row.
-
-- Frameworks: LangGraph + LangChain for modular, tool-driven agent workflows
-- LLM: OpenAI gpt-4o used for structured tool calls and reasoning over search results
-- Embeddings: OpenAI text-embedding-3-large for high-quality vector representations of product data
-- Vector Store: ChromaDB (persistent) for similarity search across all embedded product entries
-- Control Flow: LangGraph state machine routes based on whether new files need processing
-- File Handling: Automatically detects and embeds only unprocessed Excel files; avoids rework
-- Output: Structured product matches returned as a clean DataFrame, one row per relevant product
+- **LLM**: OpenAI ```gpt-4o``` used for structured tool calls and reasoning over search results
+- **Embeddings**: OpenAI ```text-embedding-3-large``` for high-quality vector representations of product data
+- **Vector Store**: ChromaDB (persistent) for similarity search across all embedded product entries
+- **Control Flow**: LangGraph state machine routes based on whether new files need processing
+- **File Handling**: Automatically detects and embeds only unprocessed Excel files; avoids rework
+- **Output**: Structured product matches returned as a clean DataFrame, one row per relevant product
 
 This agent is ideal for building intelligent product assistants that support catalog search, product comparison, and natural language interaction.
 
