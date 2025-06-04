@@ -20,7 +20,7 @@ The Product Query Assistant is a LangGraph-based workflow that enables semantic 
 - **Embeddings**: OpenAI `text-embedding-3-large`
 - **Vector Store**: ChromaDB with persistent storage
 - **Workflow Control**: State machine with conditional routing (file processing vs. file processing & search)
-- **Output**: Structured JSON response containing relevant product entries, easily renderable as a table or API response
+- **Output**: DataFrame (table) with each product relevant to the answer on a new row.
 
 This agent is ideal for building intelligent product assistants that support catalog search, product comparison, and natural language interaction.
 
