@@ -24,7 +24,7 @@ The Product Query Assistant is a LangGraph-based workflow that enables semantic 
 
 This agent is ideal for building intelligent product assistants that support catalog search, product comparison, and natural language interaction.
 
-![LangGraph Workflow](https://github.com/jenyss/ProductQueryAssistant/blob/main/workflow_graph.png)
+![workflow_graph](https://github.com/user-attachments/assets/461230ac-bebc-4656-a808-c3cc7fc6f986)
 
 
 ## How-To
