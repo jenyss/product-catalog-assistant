@@ -1,11 +1,8 @@
 langgraph
-langchain
-openai
-langchain-openai
 langchain-core
-langchain-chroma
-chromadb
-pydantic
 pandas
 ipython
-matplotlib
+chromadb
+langchain_chroma
+langchain_openai
+pygraphviz
