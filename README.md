@@ -32,24 +32,15 @@ This agent is ideal for building intelligent product assistants that support cat
 
 Find the ```run_agent``` at the end of the Notebook and configure the three fields as follows: 
 
-2. Enter your question in the ```user_input``` field. See the execution output in the notebook for an example.
-3. Pass to ```file_paths``` the list of all .xlsx files you would like to compare products from. Currently, only files with single spreadsheet are supported. Multi-sheet files support is coming in the next version.
-4. If you have added new files for extraction then set ```file_processing=True```, else set it to ```file_processing=False```. **Important** Only embed data from a file once or add validation if a file has been already embedded and skip it. Repeated embedding will pollute the database. If you do so then you can reset the DB and re-embed all documents. 
+1. Enter your question in the ```user_input``` field. See the execution output in the notebook for an example.
+2. Pass to ```file_paths``` the list of all .xlsx files you would like to compare products from. Currently, only files with single spreadsheet are supported. Multi-sheet files support is coming in the next version.
 
 ```
 state = run_agent(
-    user_input="Get all drill tools, including the german ones and their prices. Merge the table to list the german and the english name under Product.",
-    file_processing=False,
-    file_paths=["construction_products_english.xlsx", "construction_products_german.xlsx"]
+    user_input="Show me some vegetable planter options.",
+    file_paths=["Gardening_Products_1.xlsx","Gardening_Products_2.xlsx"], 
+    search_results_count=15
 )
-```
-
-To reset ChromaDB run cell number two:
-
-```
-# Reset the database
-chroma_client.reset()
-print("ChromaDB has been reset.")
 ```
 
 ## Intallation
