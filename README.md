@@ -1,4 +1,4 @@
-# Product Query Assistant
+# Product Catalog Assistant
 
 A smart AI assistant that helps you quickly search, compare, and answer questions across product catalogs (spreadsheets or PDFs).
 
