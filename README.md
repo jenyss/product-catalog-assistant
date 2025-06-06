@@ -33,6 +33,7 @@ Find the ```run_agent``` at the end of the Notebook and configure the three fiel
 
 1. Enter your question in the ```user_input``` field. See the execution output in the notebook for an example.
 2. Pass to ```file_paths``` the list of all .xlsx files you would like to compare products from. Currently, only files with single spreadsheet are supported. Multi-sheet files support is coming in the next version.
+3. Specify seearch result number. It tells the agent how many product entries to retrieve from the database based on your question.
 
 ```
 state = run_agent(
