@@ -1,10 +1,11 @@
 # Product Query Assistant
 
-A smart assistant designed to help you quickly find, retrieve, and compare accurate product information from your catalog. 
+A smart AI assistant that helps you quickly search, compare, and answer questions across product catalogs (spreadsheets or PDFs).
 
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
 Run in [Google Colab](https://colab.research.google.com/drive/19bQ3qQ9f5jrSQD_LZX09VMDxQ36szVrE?usp=sharing)
+Watch on [YouTube](https://youtu.be/642B-84-dJo)
 
 
 ## How It Works
