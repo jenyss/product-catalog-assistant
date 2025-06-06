@@ -10,10 +10,10 @@ If you have any questions or would like to collaborate, feel free to reach out t
 
 ## How It Works
 
-The Product Query Assistant is a LangGraph-based workflow that enables semantic search and querying over structured product catalogs. It supports two modes:
+The Product Query Assistant is a LangGraph-based workflow that enables semantic search and querying over structured product catalogs. It supports:
 
-1. **Product Ingestion -> Product Search & Answering** – Parses Excel files, extracts product data, and embeds it using OpenAI’s `text-embedding-3-large` into a persistent ChromaDB vector store. It then proceeds to answer the user’s question based on the embedded data.
-2. **Product Search & Answering** – Accepts natural language queries, performs similarity search over embedded data, and uses GPT-4o to filter and return relevant product matches via structured tool-calling.
+1. **Smart Product Ingestion (Conditional)** – Automatically checks if uploaded Excel files have already been processed. If not, it extracts structured product data and embeds it into a persistent ChromaDB vector store using OpenAI’s text-embedding-3-large. If already processed, it skips ingestion entirely.
+2. **Product Search & Answering** – Accepts natural language queries, performs a similarity search over embedded product data, and uses GPT-4o with tool-calling to return only the most relevant matches in a structured, user-friendly format.
 
 ## Technical Highlights
 - **Frameworks**: [LangGraph](https://github.com/langchain-ai/langgraph), [LangChain](https://github.com/langchain-ai/langchain)
@@ -23,8 +23,6 @@ The Product Query Assistant is a LangGraph-based workflow that enables semantic 
 - **Control Flow**: LangGraph state machine routes based on whether new files need processing
 - **File Handling**: Automatically detects and embeds only unprocessed Excel files; avoids rework
 - **Output**: Structured product matches returned as a clean DataFrame, one row per relevant product
-
-This agent is ideal for building intelligent product assistants that support catalog search, product comparison, and natural language interaction.
 
 ![workflow_graph](https://github.com/user-attachments/assets/461230ac-bebc-4656-a808-c3cc7fc6f986)
 
