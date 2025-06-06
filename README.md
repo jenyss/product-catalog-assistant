@@ -6,6 +6,8 @@ If you have any questions or would like to collaborate, feel free to reach out t
 
 ![Colab](https://colab.research.google.com/assets/colab-badge.svg) [Google Colab](https://colab.research.google.com/drive/19bQ3qQ9f5jrSQD_LZX09VMDxQ36szVrE?usp=sharing) <br>
 ▶️ Watch on [YouTube](https://youtu.be/642B-84-dJo)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19bQ3qQ9f5jrSQD_LZX09VMDxQ36szVrE?usp=sharing)
+
 
 
 
