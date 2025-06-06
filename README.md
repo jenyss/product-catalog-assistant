@@ -4,7 +4,7 @@ A smart AI assistant that helps you quickly search, compare, and answer question
 
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
 
-![Colab](https://colab.research.google.com/assets/colab-badge.svg) Run in [Google Colab](https://colab.research.google.com/drive/19bQ3qQ9f5jrSQD_LZX09VMDxQ36szVrE?usp=sharing) <br>
+![Colab](https://colab.research.google.com/assets/colab-badge.svg) [](https://colab.research.google.com/drive/19bQ3qQ9f5jrSQD_LZX09VMDxQ36szVrE?usp=sharing) <br>
 ▶️ Watch on [YouTube](https://youtu.be/642B-84-dJo)
 
 
