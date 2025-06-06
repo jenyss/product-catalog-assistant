@@ -43,28 +43,3 @@ state = run_agent(
 )
 ```
 
-## Intallation
-
-<b>Prerequisites</b>
-
-* Access to <b>JupyterLab, Google Colab</b>, or another interactive computing environment to run this Jupyter Notebook.
-
-### Step 1: Clone the Repository
-
-Clone this repository to your local machine:
-```
-git clone <REPOSITORY_URL>
-cd <PROJECT_FOLDER>
-```
-
-### Step 2: Open Jupyter Notebook in JupyterLab
-
-Ensure that ```<PROJECT_FOLDER>``` is accessible in JupyterLab by setting it as your working directory in JupyterLab.
- * In JupyterLab, use the "Open from Path" option to load ```ProductQueryAssistant.ipynb```
- * Similarly, load ```.env``` and populate the variable keys with appropriate values.
- * See requirements.txt for the needed libraries.
-   
-### Step 3: Run the Jupyter Notebook
-
-To execute the notebook, select each cell and press ```Shift + Enter```.
-
