@@ -7,6 +7,9 @@ If you have any questions or would like to collaborate, feel free to reach out t
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19bQ3qQ9f5jrSQD_LZX09VMDxQ36szVrE?usp=sharing) <br>
 ▶️ Watch on [YouTube](https://youtu.be/642B-84-dJo) <br>
 
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube&style=for-the-badge)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+
 
 ## How It Works
 
